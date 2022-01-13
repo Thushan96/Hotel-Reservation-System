@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Hotel Project">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HotelBlue.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GDSE58_ITS1114_ThushanMadhulakshitha.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

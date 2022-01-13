@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="327.0" prefWidth="600.0" style="-fx-background-color: #74b9ff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contoller.AdminMealFormController">
+   <children>
+      <Label alignment="CENTER" layoutY="34.0" prefHeight="44.0" prefWidth="600.0" text="Select Option" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="newMealbtn" layoutX="17.0" layoutY="113.0" mnemonicParsing="false" onAction="#PressToAddNewMeal" prefHeight="75.0" prefWidth="178.0" style="-fx-background-color: #81ecec;" text="Add new Meal Plan">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="ModifyMealBtn" layoutX="215.0" layoutY="113.0" mnemonicParsing="false" onAction="#PressToModifyMeal" prefHeight="75.0" prefWidth="178.0" style="-fx-background-color: #81ecec;" text="Modify Meal Plan ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeleteMealBtn" layoutX="410.0" layoutY="113.0" mnemonicParsing="false" onAction="#pressToDeleteMeal" prefHeight="75.0" prefWidth="167.0" style="-fx-background-color: #81ecec;" text="Delete Meal Plan">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Backbtn" layoutX="515.0" layoutY="260.0" mnemonicParsing="false" onAction="#PressToGoBack" prefHeight="44.0" prefWidth="71.0" style="-fx-background-color: #0984e3;" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="JavaFXApp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HotelBL/out/artifacts/JavaFXApp/jfoenix-8.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HotelBL/out/artifacts/JavaFXApp/JavaFXApp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

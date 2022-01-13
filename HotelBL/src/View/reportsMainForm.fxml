@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="309.0" prefWidth="608.0" style="-fx-background-color: #74b9ff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contoller.reportsMainFormController">
+   <children>
+      <Button fx:id="MonthlyBtn" layoutX="63.0" layoutY="96.0" mnemonicParsing="false" onAction="#PressToMonthly" prefHeight="81.0" prefWidth="228.0" style="-fx-background-color: #55efc4;" text="Monthly Income Report">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="yearlyBtn" layoutX="355.0" layoutY="96.0" mnemonicParsing="false" onAction="#PressToYearly" prefHeight="81.0" prefWidth="205.0" style="-fx-background-color: #55efc4;" text="Yearly Income report">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="14.0" prefHeight="17.0" prefWidth="594.0" text="Select Option" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="backBtn" layoutX="495.0" layoutY="240.0" mnemonicParsing="false" onAction="#navigatBack" prefHeight="45.0" prefWidth="83.0" style="-fx-background-color: #0984e3;" text="Back" textFill="#282424">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
